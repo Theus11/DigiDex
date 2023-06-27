@@ -1,0 +1,74 @@
+@font-face {
+    font-family: digimon;
+    src: url('/public/fonts/DigimonBasic.ttf');
+}
+
+.gallery {
+    padding: 1em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: rgba(0,0,0,.1);
+}
+
+.border {
+    margin: 1.7em;
+    background: linear-gradient(rgb(252,145,25), rgb(37,154,177));
+    border-radius: 2%;
+    padding-bottom: 0px;
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,.4);
+}
+
+.item {
+    padding-bottom: .5em;
+    margin: .2em;
+    border-radius: 2%;
+    background-color: white;
+    transition: opacity .3s;
+}
+
+.item:hover {
+    opacity: 0.7;
+}
+
+.item:hover .title-card {
+    margin-bottom: 14px;
+    margin-top: 4px;
+    border-width: 8px 2px 8px 2px;
+}
+
+.item:hover .title {
+    -webkit-text-fill-color: rgba(0,0,0,.8);
+    text-shadow: 1px 1px 5px rgba(252,145,25,.6);
+}
+
+.title-card {
+    border-image: linear-gradient(rgb(252,145,25), rgb(37,154,177)) 30; 
+    border-width: 2px 2px 2px 2px;
+    border-style: solid;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 2%;
+    height: 3.6em;
+    transition: all .25s;
+}
+
+.title {
+    font-family: digimon;
+    margin-top: 3.2px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 57.59px;
+    font-size: 1.5em;
+    background-image: linear-gradient(to bottom, rgb(252,145,25) 35%, rgb(37,154,177) 80%);
+    background-clip: text;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+    -webkit-text-fill-color: transparent;
+    transition: all 1s;
+}
+
+.gallery img {
+    border-radius: 2%;
+}
