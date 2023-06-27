@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Digidex/static/css/main.1e3d132a.css",
+    "main.js": "/Digidex/static/js/main.daba5aa3.js",
+    "static/js/787.189fd307.chunk.js": "/Digidex/static/js/787.189fd307.chunk.js",
+    "static/media/DigimonBasic.ttf": "/Digidex/static/media/DigimonBasic.a9e7956aa2d6c6a2748b.ttf",
+    "index.html": "/Digidex/index.html",
+    "main.1e3d132a.css.map": "/Digidex/static/css/main.1e3d132a.css.map",
+    "main.daba5aa3.js.map": "/Digidex/static/js/main.daba5aa3.js.map",
+    "787.189fd307.chunk.js.map": "/Digidex/static/js/787.189fd307.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e3d132a.css",
+    "static/js/main.daba5aa3.js"
+  ]
+}
