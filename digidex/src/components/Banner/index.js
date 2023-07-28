@@ -1,9 +1,9 @@
 import './Banner.css'
 
-const Banner = (props) => {
+const Banner = () => {
     return (
         <header className='banner'>
-            <img src='/imagens/logo.png' alt='Banner principal da DigiDex'></img>
+            <img src={require('../../imagens/logo.png')} alt='Banner principal da DigiDex'></img>
         </header>
     )
 }
